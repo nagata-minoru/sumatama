@@ -1,0 +1,16 @@
+*.log
+*.swp
+*~
+.DS_Store
+.DS_Store
+._*
+.buildpath
+.bundle
+.idea
+.project
+.secret
+.settings
+.~lock.*
+doc/
+tmp
+/vendor
