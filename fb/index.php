@@ -10,7 +10,7 @@
      <?php // アプリケーション設定 ?>
      window.fbAsyncInit = function() {
          FB.init({
-           appId      : '980956188585558',
+           appId      : '<?php echo(getenv('SUMATAMA_APPID'));?>',
            xfbml      : true,
            version    : 'v2.2'
          });
