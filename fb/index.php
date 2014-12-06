@@ -6,6 +6,8 @@
   <body>
     <h1 id="fb-welcome"></h1>
     <h2>スマイルでポイントが貯まるアプリへようこそ</h2>
+    <input type='text' id='message'>
+    <button onclick='javascript:postFeed()'>フィードへポストする</button>
     <script>
       <?php // アプリケーション設定 ?>
       window.fbAsyncInit = function() {
@@ -36,7 +38,7 @@
             // Otherwise, show Login dialog first.
             FB.login(function(response) {
               onLogin(response);
-            }, {scope: 'user_friends, email'});
+            }, {scope: 'publish_actions'});
           }
         });
       };
@@ -50,5 +52,8 @@
           fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
+
+    <script src='//code.jquery.com/jquery-2.1.1.min.js'></script>
+    <script src='sumatama.js'></script>
   </body>
 </html>
