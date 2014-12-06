@@ -8,6 +8,7 @@
     <h2>スマイルでポイントが貯まるアプリへようこそ</h2>
     <input type='text' id='message'>
     <button onclick='javascript:postFeed()'>フィードへポストする</button>
+    <a href='photo.php'>スマイルを投稿する</a>
     <script>
       <?php // アプリケーション設定 ?>
       window.fbAsyncInit = function() {
