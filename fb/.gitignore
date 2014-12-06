@@ -14,3 +14,4 @@
 doc/
 tmp
 /vendor
+\#*
