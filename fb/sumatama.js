@@ -12,8 +12,6 @@ function postFeed() {
       'message': $('#message').val()
     }
 
-    console.log(postData);
-
     $.post('post_feed.php', postData).done(function(result) {
       if (result == 'success') alert('タイムラインに投稿しました');
       else                     alert(result);
