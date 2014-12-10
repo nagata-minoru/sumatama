@@ -15,7 +15,7 @@ class Feed
     public function post($message) {
         $request = new \Facebook\FacebookRequest(
             $this->user->getSession(), 'POST', '/me/feed',
-            array('message' => $message)
+            array('message' => $message, 'place' => 195680633840439)
         );
 
         $request->execute();
