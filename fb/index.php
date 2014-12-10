@@ -2,6 +2,7 @@
 ?>
 <html>
   <head>
+    <title>スマイルを貯めよう</title>
   </head>
   <body>
     <h1 id="fb-welcome"></h1>
