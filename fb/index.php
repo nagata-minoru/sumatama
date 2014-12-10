@@ -14,7 +14,7 @@
       <?php // アプリケーション設定 ?>
       window.fbAsyncInit = function() {
           FB.init({
-            appId      : '<?php echo(getenv('SUMATAMA_APPID'));?>',
+            appId      : '<?php echo(getenv('SUMATAMA_FACEBOOK_APPID'));?>',
             xfbml      : true,
             version    : 'v2.2'
           });
