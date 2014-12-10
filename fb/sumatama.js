@@ -9,7 +9,7 @@ function postFeed() {
     var postData = {
       'user_id': auth.userID,
       'access_token': auth.accessToken,
-      'message': $('#message').val()
+      'message': $('#post_message').val()
     }
 
     $.post('post_feed.php', postData).done(function(result) {

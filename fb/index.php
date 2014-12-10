@@ -7,7 +7,7 @@
   <body>
     <h1 id="fb-welcome"></h1>
     <h2>スマイルでポイントが貯まるアプリへようこそ</h2>
-    <input type='text' id='message'>
+    <input type='text' id='post_message'>
     <button onclick='javascript:postFeed()'>フィードへポストする</button>
     <a href='photo.php'>スマイルを投稿する</a>
     <script>
